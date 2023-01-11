@@ -1,4 +1,4 @@
 # Rust Lib in Swift
-A basic Rust static library for any Swift project supporting various Apple platforms such as iOS, iOS Simulator, macOS, and mac Catalyst for both Intel and Apple silicon.
+A basic Rust static library for any Swift project supporting various Apple platforms such as iOS, iOS Simulator, macOS, and mac Catalyst for both Intel and Apple silicon. In it you'll see a wrapper library mapping Rust's API to Swift by a C bridge header which contains a function **rust_munchausen_numbers()** that takes no arguments but returns a tuple containing four Int32 types showing [The Münchhausen Numbers](https://en.wikipedia.org/wiki/Perfect_digit-to-digit_invariant).
 ## Usage
 Installing and using the code samples contained in this repo can be found in the article available at this link, [Rust Library in Swift](https://medium.com/@kennethyoel/a-swiftly-oxidizing-tutorial-44b86e8d84f5)
