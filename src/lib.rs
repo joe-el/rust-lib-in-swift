@@ -1,3 +1,5 @@
+// credit for the code goes to Vyacheslav Vorona at https://tech.unifa-e.com/entry/2022/09/01/090242
+
 #[no_mangle]
 pub extern fn rust_munchausen_numbers() -> *mut [i32; 4] {
     // Pre-caching the power for all of the digits; 0^0 is initially in the cache array.
